@@ -18,10 +18,12 @@
         );
         
 **Insert data**
+
         use pet_adoptions;
         insert into pet_adoptions.pets (animal, name, color, adoption_fee) values ("Squid", "Squidward", "blue", 3000);
         insert into pet_adoptions.pets (animal, name, color, adoption_fee) values ("Squirrel", "Sandy", "brown", 5000);
         
 **Testing a select**
+
         use pet_adoptions;
         select * from pets;
