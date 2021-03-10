@@ -1,0 +1,44 @@
+ body {
+    padding-top: 30px;
+    max-width: 500px;
+    margin: auto; align-content: center;
+ }
+ h1, h2, h3 {
+    text-align: center;
+    margin: auto;
+ }
+ table {
+     margin: auto;
+ }
+ td {
+     padding-top: 20px;
+     text-align: center;
+     min-width: 80px;
+     vertical-align: top
+ }
+ .left {
+     padding-top: 0px;
+     text-align: right;
+ }
+ .right {
+     padding-top: 0px;
+     text-align: left;
+ }
+ div {
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+}
+form {
+    max-width: 400px;
+    align-content: center;
+    margin: auto;
+}
+input, select {
+    margin-left: 10px;
+}
+#formMsg {
+    color: darkred;
+    font-weight: bold;
+}
